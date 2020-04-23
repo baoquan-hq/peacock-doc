@@ -104,21 +104,22 @@ no                 String字符串，保全号
 网页取证 - /attestations/url
 ------------------------------------
 根据网页地址固定证据
+
 payload
 ^^^^^^^^^^^^^^^
 =================  ======================================= ================
 参数名 				描述                                    是否可选
 =================  ======================================= ================
-unique_id           保全唯一码                                   必选
-template_id         模板id                                      必选
-identities          Object对象，身份事项                       必选
-factoids            数组对象，陈述集                           必选
-mode                网页url模式选择                            必选
-url                  网页地址                                  必选
-transaction_id       外部事物id                               非必选
-evidenceName         取证名称                                非必选
-evidenceLabel        取证标签                                  非必选
-callBackUrl          回调地址                                非必选
+unique_id            保全唯一码                                   必选
+template_id          模板id                                      必选
+identities           Object对象，身份事项                         必选
+factoids             数组对象，陈述集                             必选
+mode                 网页url模式选择                              必选
+url                  网页地址                                    必选
+transaction_id       外部事物id                                  非必选
+evidenceName         取证名称                                   非必选
+evidenceLabel        取证标签                                    非必选
+callBackUrl          回调地址                                   非必选
 =================  ======================================= ================
 模式一是提交取证后自动完成取证存证上链步骤，模式二是提交取证后 需再次确认存证上链  中间可以获取取证图片查看是否满足需要
 
