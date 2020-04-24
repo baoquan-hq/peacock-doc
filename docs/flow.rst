@@ -72,11 +72,11 @@
 模板管理页面：
 
 
-.. image:: images/temlpate1.png
+.. image:: images/template1.png
 
 模板详情页面：
 
-.. image:: images/temlpate2.png
+.. image:: images/template2.png
 
 根据自己的业务需求配置保全书模板字段 模板与陈述关系详见名词解释
 
