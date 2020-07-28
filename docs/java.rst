@@ -6,12 +6,12 @@ Java
 	<dependency>
 	    <groupId>com.baoquan</groupId>
 	    <artifactId>eagle-sdk</artifactId>
-	    <version>3.0.5</version>
+	    <version>3.0.6</version>
 	</dependency>
 
 如果使用gradle，可以加入如下依赖::
 	
-	compile group: 'com.baoquan', name: 'eagle-sdk', version: '3.0.5'
+	compile group: 'com.baoquan', name: 'eagle-sdk', version: '3.0.6'
 
 初始化客户端
 ------------------
@@ -228,6 +228,49 @@ rsa私钥文件应该以 **-----BEGIN PRIVATE KEY-----** 开头和 **-----END PR
 	} catch (ServerException e) {
 		System.out.println(e.getMessage());
 	}
+
+获取过程取证token
+------------------
+
+::
+
+        ProcessAttestationParam payload = new ProcessAttestationParam();
+        payload.setTemplate_id("mqAZQwNZbpbrmVTob6Ss");
+        payload.setUnique_id(randomUniqueId());
+        payload.setEvidenceType("PC");
+        Map<IdentityTypeEnum, String> identities = new HashMap<IdentityTypeEnum, String>();
+        identities.put(IdentityTypeEnum.ID, "15812383");
+        payload.setIdentities(identities);
+        List<PayloadFactoidParam> factoids = new ArrayList<PayloadFactoidParam>();
+        PayloadFactoidParam factoid = new PayloadFactoidParam();
+        factoid.setUnique_id(randomUniqueId());
+        factoid.setType("evidence");
+        LinkedHashMap<String, String> map = new LinkedHashMap<String, String>();
+        factoid.setData(map);
+        map.put("file_name", "李三");
+        map.put("size", "37791");
+        factoids.add(factoid);
+        payload.setFactoids(factoids);
+        ResultModel response = null;
+        response = client.createProcessToken(payload);
+        System.out.println(Utils.objectToJson(response));
+        Assert.assertNotNull(response.getData());
+
+查询过程取证详情
+------------------
+
+::
+
+        ResultModel response  client.getProcessInfo("485470291179343873");
+        System.out.println(Utils.objectToJson(response));
+
+结束过程取证
+------------------
+
+::
+        ResultModel response client.stopProcess("425043414342438912");
+        System.out.println(Utils.objectToJson(response));
+
 
 
 
