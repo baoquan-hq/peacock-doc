@@ -244,6 +244,8 @@ sha256             文件sha256哈希
 status             存证状态
 blockchain_hash    链上哈希
 attestation_at     存证时间
+hhf_number         杭互法编号
+ghf_number         广互法编号
 =================  ================================================================
 
 下载保全文件 - /attestation/download
