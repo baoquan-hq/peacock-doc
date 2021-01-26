@@ -587,7 +587,7 @@ markId             申请/注册号                            必选
 
 
 
-商标检索任务重试  - /task/download
+商标检索任务下载  - /task/download
 -------------------------------
 SDK taskDownload()
 
