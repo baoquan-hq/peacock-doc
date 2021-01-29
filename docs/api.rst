@@ -545,6 +545,21 @@ add_time              任务创建时间
 call_back_url         回调地址
 zip_url               证据包下载地址
 status                取证状态 0:开始，1:执行中 2:成功 3:失败
+mark_msg              商标信息对象 ,以下是商标对象属性
+mark_id               申请/注册号
+status                商标状态
+inter_class           国际分类
+good_server           商品服务
+mark_method           商标形式
+is_share              是否共有商标
+apply_date            申请日期
+anno_first_date       初审公告日期
+anno_regist_date      注册公告日期
+right_deadline        专用权期限
+apply_name            申请人名称
+apply_addr            申请人地址
+agency                代办机构
+add_time              创建时间
 =================  ================================================================
 成功 code 为 1成功 否则上传失败
 
@@ -576,6 +591,21 @@ add_time              任务创建时间
 call_back_url         回调地址
 date_dir              结果保存目录
 status                取证状态 0:开始，1:执行中 2:成功 3:失败
+mark_msg              商标信息对象 ,以下是商标对象属性
+mark_id               申请/注册号
+status                商标状态
+inter_class           国际分类
+good_server           商品服务
+mark_method           商标形式
+is_share              是否共有商标
+apply_date            申请日期
+anno_first_date       初审公告日期
+anno_regist_date      注册公告日期
+right_deadline        专用权期限
+apply_name            申请人名称
+apply_addr            申请人地址
+agency                代办机构
+add_time              创建时间
 =================  ================================================================
 成功 code 为 1成功 否则上传失败
 
