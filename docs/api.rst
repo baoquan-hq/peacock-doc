@@ -666,6 +666,7 @@ markNo             下载文件序号(列表中的mark_no)           必选
 
 
 下载类型字段值
+其中zip和anno类型markNo不用传;
 zip(zip包),anno(公告检索结果图片下载),mark_msg(商标信息Excel下载),mark_process(商标流程图片下载),mark_detail(商标详情图片下载)
 mark_img(商标图片下载)
 返回的data
