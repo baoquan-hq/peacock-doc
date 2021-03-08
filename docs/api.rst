@@ -545,10 +545,11 @@ add_time              任务创建时间
 call_back_url         回调地址
 zip_url               证据包下载地址
 status                取证状态 0:开始，1:执行中 2:成功 3:失败
-mark_msg              商标信息对象 ,以下是商标对象属性
+mark_msg              商标信息对象集合 ,以下是商标对象属性
 mark_id               申请/注册号
 status                商标状态
 inter_class           国际分类
+mark_no               下载类型序号
 good_server           商品服务
 mark_method           商标形式
 is_share              是否共有商标
@@ -659,7 +660,7 @@ payload
 参数名 				描述                             是否可选
 =================  ================================ ================
 markId             申请/注册号                            必选
-downloadType        下载类型                              必选
+downloadType       下载类型                               必选
 markNo             下载文件序号(列表中的mark_no)           必选
 =================  ================================ ================
 
