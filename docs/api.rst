@@ -591,10 +591,11 @@ add_time              任务创建时间
 call_back_url         回调地址
 date_dir              结果保存目录
 status                取证状态 0:开始，1:执行中 2:成功 3:失败
-mark_msg              商标信息对象 ,以下是商标对象属性
+mark_msg              商标信息对象集合,以下是商标对象属性
 mark_id               申请/注册号
 status                商标状态
 inter_class           国际分类
+mark_no               下载类型序号
 good_server           商品服务
 mark_method           商标形式
 is_share              是否共有商标
@@ -664,6 +665,6 @@ downloadType        下载类型                            必选
 
 下载类型字段值
 zip(zip包),anno(公告检索结果图片下载),mark_msg(商标信息Excel下载),mark_process(商标流程图片下载),mark_detail(商标详情图片下载)
-
+mark_img(商标图片下载)
 返回的data
 ^^^^^^^^^^^^^^
