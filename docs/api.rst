@@ -542,6 +542,7 @@ start_time            开始取证时间
 mark_id               申请/注册号
 update_task_url       任务状态更新接口
 add_time              任务创建时间
+msg                   信息
 call_back_url         回调地址
 zip_url               证据包下载地址
 status                取证状态 0:开始，1:执行中 2:成功 3:失败
@@ -589,6 +590,7 @@ start_time            开始取证时间
 mark_id               申请/注册号
 update_task_url       任务状态更新接口
 add_time              任务创建时间
+msg                   信息
 call_back_url         回调地址
 date_dir              结果保存目录
 status                取证状态 0:开始，1:执行中 2:成功 3:失败
