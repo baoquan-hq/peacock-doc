@@ -614,62 +614,62 @@ add_time              创建时间
 成功 code 为 1成功 否则上传失败
 
 返回示例 json
-{
-    "code": 1,
-    "data": {
-        "add_time": "2021-03-04 11:35:46",
-        "call_back_url": "http://127.0.0.1:8080/result/upload/536725",
-        "create_mark_msg_url": "http://127.0.0.1:8080/mark/create",
-        "date_dir": "20210113",
-        "duration": null,
-        "end_time": "2021-03-05 14:23:08",
-        "id": 63,
-        "mark_id": "536725",
-        "mark_msg": [
-            {
-                "add_time": "2021-03-05 14:27:39",
-                "agency": null,
-                "anno_first_date": "1990年09月10日",
-                "anno_regist_date": "1990年12月10日",
-                "apply_addr": "上海市浦东新区陆家嘴东路161号32F01-07室",
-                "apply_date": "1989年11月22日",
-                "apply_name": "李宁体育(上海)有限公司",
-                "good_server": "\r\n        \t\r\n                \t\r\n                \t击剑服;\r\n                \t\r\n                \t高尔夫球手套;\r\n                \t\r\n                \t\r\n                \t查看详细信息\r\n                \t\r\n                \t\r\n\t\t\t            \r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n        \r\n          \r\n            \r\n              类似群\r\n              商品名称\r\n            \r\n        \t\r\n            \r\n              2809\r\n              击剑服\r\n            \r\n                \t\r\n            \r\n              2809\r\n              高尔夫球手套\r\n            \r\n                \t\r\n          \r\n        \r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n                \t\r\n        \t",
-                "id": 5,
-                "inter_class": "28",
-                "is_share": "\r\n          \r\n          否\r\n     ",
-                "mark_id": "536725",
-                "mark_method": "\r\n          \r\n          \r\n          \r\n          ",
-                "mark_no": 0,
-                "right_deadline": "2020年12月10日\r\n          至 2030年12月09日",
-                "status": "\"\n              LIVE/REGISTRATION/Issued and Active\n              注册\n              \"\r\n\r\n              LIVE/REGISTRATION/Issued and Active\r\n              注册\r\n              "
-            },
-            {
-                "add_time": "2021-03-05 14:30:01",
-                "agency": null,
-                "anno_first_date": "1990年09月10日",
-                "anno_regist_date": "1990年12月10日",
-                "apply_addr": "上海市浦东新区陆家嘴东路161号32F01-07室",
-                "apply_date": "1989年11月22日",
-                "apply_name": "李宁体育(上海)有限公司",
-                "good_server": "\r\n        \t\r\n                \t\r\n                \t衣服;\r\n                \t\r\n                \t制服;\r\n                \t\r\n                \t大衣;\r\n                \t\r\n                \t轻便大衣;\r\n                \t\r\n                \t晨衣;\r\n                \t\r\n                \t浴衣;\r\n                \t\r\n                \t茄克;\r\n                \t\r\n                \t亚麻布服装;\r\n                \t\r\n                \t纸衣服;\r\n                \t\r\n                \t睡衣;\r\n                \t\r\n                \t针织品的(服装);\r\n                \t\r\n                \t成品衣;\r\n                \t\r\n                \t工作服;\r\n                \t\r\n                \t工装;\r\n                \t\r\n                \t制服(接待人员，行会会员等穿的);\r\n                \t\r\n                \t衬衫;\r\n                \t\r\n                \t内衣裤;\r\n                \t\r\n                \t裤子;\r\n                \t\r\n                \t披肩;\r\n                \t\r\n                \t衣服罩;\r\n                \t\r\n                \t便服;\r\n                \t\r\n                \t围裙(衣服);\r\n                \t\r\n                \t儿童紧身短衬裤;\r\n                \t\r\n                \t婴儿全套衣;\r\n                \t\r\n                \t运动衣裤;\r\n                \t\r\n                \t西服制服;\r\n                \t\r\n                \t童装(包括围嘴，尿布);\r\n                \t\r\n                \t针织衣服;\r\n                \t\r\n                \t雨衣;\r\n                \t\r\n                \t风雨衣;\r\n                \t\r\n                \t睡衣裤;\r\n                \t\r\n                \t......\r\n                \t\r\n                \t\r\n                \t查看详细信息\r\n                \t\r\n                \t\r\n\t\t\t            \r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n        \r\n          \r\n            \r\n              类似群\r\n              商品名称\r\n            \r\n        \t\r\n            \r\n              \r\n              衣服\r\n            \r\n                \t\r\n            \r\n              2501\r\n              制服\r\n            \r\n                \t\r\n            \r\n              2501\r\n              大衣\r\n            \r\n                \t\r\n            \r\n              2501\r\n              轻便大衣\r\n            \r\n                \t\r\n            \r\n              2501\r\n              晨衣\r\n            \r\n                \t\r\n            \r\n              2501\r\n              浴衣\r\n            \r\n                \t\r\n            \r\n              2501\r\n              茄克\r\n            \r\n                \t\r\n            \r\n              2501\r\n              亚麻布服装\r\n            \r\n                \t\r\n            \r\n              2501\r\n              纸衣服\r\n            \r\n                \t\r\n            \r\n              2501\r\n              睡衣\r\n            \r\n                \t\r\n            \r\n              \r\n              针织品的(服装)\r\n            \r\n                \t\r\n            \r\n              2501\r\n              成品衣\r\n            \r\n                \t\r\n            \r\n              2501\r\n              工作服\r\n            \r\n                \t\r\n            \r\n              2501\r\n              工装\r\n            \r\n                \t\r\n            \r\n              \r\n              制服(接待人员，行会会员等穿的)\r\n            \r\n                \t\r\n            \r\n              2501\r\n              衬衫\r\n            \r\n                \t\r\n            \r\n              2501\r\n              内衣裤\r\n            \r\n                \t\r\n            \r\n              2501\r\n              裤子\r\n            \r\n                \t\r\n            \r\n              2511\r\n              披肩\r\n            \r\n                \t\r\n            \r\n              2501\r\n              衣服罩\r\n            \r\n                \t\r\n            \r\n              2501\r\n              便服\r\n            \r\n                \t\r\n            \r\n              2501\r\n              围裙(衣服)\r\n            \r\n                \t\r\n            \r\n              2501\r\n              儿童紧身短衬裤\r\n            \r\n                \t\r\n            \r\n              2502\r\n              婴儿全套衣\r\n            \r\n                \t\r\n            \r\n              2501\r\n              运动衣裤\r\n            \r\n                \t\r\n            \r\n              2501\r\n              西服制服\r\n            \r\n                \t\r\n            \r\n              \r\n              童装(包括围嘴，尿布)\r\n            \r\n                \t\r\n            \r\n              2501\r\n              针织衣服\r\n            \r\n                \t\r\n            \r\n              2501\r\n              雨衣\r\n            \r\n                \t\r\n            \r\n              2501\r\n              风雨衣\r\n            \r\n                \t\r\n            \r\n              2501\r\n              睡衣裤\r\n            \r\n                \t\r\n            \r\n              2501\r\n              防护服装和劳动服\r\n            \r\n                \t\r\n            \r\n              2501\r\n              羊毛衫\r\n            \r\n                \t\r\n            \r\n              2501\r\n              羽绒服装\r\n            \r\n                \t\r\n            \r\n              2501\r\n              妇女胸衣\r\n            \r\n                \t\r\n            \r\n              2501\r\n              紧身和奶罩\r\n            \r\n                \t\r\n            \r\n              2501\r\n              裘皮衣服\r\n            \r\n                \t\r\n            \r\n              \r\n              皮衣服(包括披肩，围巾，港衣)\r\n            \r\n                \t\r\n            \r\n              \r\n              雨衣(包括雨帽，披肩，斗篷)\r\n            \r\n                \t\r\n            \r\n              2503\r\n              游泳衣\r\n            \r\n                \t\r\n            \r\n              2503\r\n              游泳裤\r\n            \r\n                \t\r\n            \r\n              2503\r\n              男式游泳裤\r\n            \r\n                \t\r\n            \r\n              2503\r\n              柔道服\r\n            \r\n                \t\r\n            \r\n              \r\n              皮鞋\r\n            \r\n                \t\r\n            \r\n              2507\r\n              皮便鞋\r\n            \r\n                \t\r\n            \r\n              \r\n              胶鞋\r\n            \r\n                \t\r\n            \r\n              2507\r\n              球鞋\r\n            \r\n                \t\r\n            \r\n              2507\r\n              塑料鞋\r\n            \r\n                \t\r\n            \r\n              \r\n              旅游鞋\r\n            \r\n                \t\r\n            \r\n              \r\n              鞋拔子\r\n            \r\n                \t\r\n            \r\n              \r\n              靴\r\n            \r\n                \t\r\n            \r\n              2507\r\n              拖鞋\r\n            \r\n                \t\r\n            \r\n              2507\r\n              凉鞋\r\n            \r\n                \t\r\n            \r\n              2507\r\n              运动鞋\r\n            \r\n                \t\r\n            \r\n              2506\r\n              足球鞋\r\n            \r\n                \t\r\n            \r\n              2506\r\n              体操鞋\r\n            \r\n                \t\r\n            \r\n              2508\r\n              帽子(头戴)\r\n            \r\n                \t\r\n            \r\n              2508\r\n              贝雷帽\r\n            \r\n                \t\r\n            \r\n              2508\r\n              高顶礼帽\r\n            \r\n                \t\r\n            \r\n              2508\r\n              毡帽\r\n            \r\n                \t\r\n            \r\n              2509\r\n              袜\r\n            \r\n                \t\r\n            \r\n              2509\r\n              短统袜\r\n            \r\n                \t\r\n            \r\n              2509\r\n              长统袜\r\n            \r\n                \t\r\n            \r\n              \r\n              护腿\r\n            \r\n                \t\r\n            \r\n              2509\r\n              运动袜\r\n            \r\n                \t\r\n            \r\n              2509\r\n              袜裤\r\n            \r\n                \t\r\n            \r\n              2509\r\n              毡袜\r\n            \r\n                \t\r\n            \r\n              2511\r\n              围巾\r\n            \r\n                \t\r\n            \r\n              \r\n              手套\r\n            \r\n                \t\r\n            \r\n              2510\r\n              连指手套\r\n            \r\n                \t\r\n            \r\n              2511\r\n              领带\r\n            \r\n                \t\r\n            \r\n              2512\r\n              腰带\r\n            \r\n                \t\r\n            \r\n              2501\r\n              内衣\r\n            \r\n                \t\r\n            \r\n              2501\r\n              吸汗内衣裤\r\n            \r\n                \t\r\n            \r\n              2501\r\n              汗衫\r\n            \r\n                \t\r\n            \r\n              2501\r\n              防汗内衣裤\r\n            \r\n                \t\r\n            \r\n              2501\r\n              裙子\r\n            \r\n                \t\r\n            \r\n              2501\r\n              背心\r\n            \r\n                \t\r\n            \r\n              \r\n              套服外套\r\n            \r\n                \t\r\n            \r\n              2501\r\n              衬衫\r\n            \r\n                \t\r\n          \r\n        \r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n                \t\r\n        \t",
-                "id": 6,
-                "inter_class": "25",
-                "is_share": "\r\n          \r\n          否\r\n     ",
-                "mark_id": "536725",
-                "mark_method": "\r\n          \r\n          \r\n          \r\n          ",
-                "mark_no": 1,
-                "right_deadline": "2020年12月10日\r\n          至 2030年12月09日",
-                "status": "\r\n              LIVE/REGISTRATION/Issued and Active\r\n              注册\r\n              "
-            }
-        ],
-        "start_time": "2021-03-05 14:16:16",
-        "status": 2,
-        "update_task_url": "http://127.0.0.1:8080/task/update/536725"
-    },
-    "msg": "搜索任务成功"
-}
-
+::
+    {
+        "code": 1,
+        "data": {
+            "add_time": "2021-03-04 11:35:46",
+            "call_back_url": "http://127.0.0.1:8080/result/upload/536725",
+            "create_mark_msg_url": "http://127.0.0.1:8080/mark/create",
+            "date_dir": "20210113",
+            "duration": null,
+            "end_time": "2021-03-05 14:23:08",
+            "id": 63,
+            "mark_id": "536725",
+            "mark_msg": [
+                {
+                    "add_time": "2021-03-05 14:27:39",
+                    "agency": null,
+                    "anno_first_date": "1990年09月10日",
+                    "anno_regist_date": "1990年12月10日",
+                    "apply_addr": "上海市浦东新区陆家嘴东路161号32F01-07室",
+                    "apply_date": "1989年11月22日",
+                    "apply_name": "李宁体育(上海)有限公司",
+                    "good_server": "\r\n        \t\r\n                \t\r\n                \t击剑服;\r\n                \t\r\n                \t高尔夫球手套;\r\n                \t\r\n                \t\r\n                \t查看详细信息\r\n                \t\r\n                \t\r\n\t\t\t            \r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n        \r\n          \r\n            \r\n              类似群\r\n              商品名称\r\n            \r\n        \t\r\n            \r\n              2809\r\n              击剑服\r\n            \r\n                \t\r\n            \r\n              2809\r\n              高尔夫球手套\r\n            \r\n                \t\r\n          \r\n        \r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n                \t\r\n        \t",
+                    "id": 5,
+                    "inter_class": "28",
+                    "is_share": "\r\n          \r\n          否\r\n     ",
+                    "mark_id": "536725",
+                    "mark_method": "\r\n          \r\n          \r\n          \r\n          ",
+                    "mark_no": 0,
+                    "right_deadline": "2020年12月10日\r\n          至 2030年12月09日",
+                    "status": "\"\n              LIVE/REGISTRATION/Issued and Active\n              注册\n              \"\r\n\r\n              LIVE/REGISTRATION/Issued and Active\r\n              注册\r\n              "
+                },
+                {
+                    "add_time": "2021-03-05 14:30:01",
+                    "agency": null,
+                    "anno_first_date": "1990年09月10日",
+                    "anno_regist_date": "1990年12月10日",
+                    "apply_addr": "上海市浦东新区陆家嘴东路161号32F01-07室",
+                    "apply_date": "1989年11月22日",
+                    "apply_name": "李宁体育(上海)有限公司",
+                    "good_server": "121"
+                    "id": 6,
+                    "inter_class": "25",
+                    "is_share": "\r\n          \r\n          否\r\n     ",
+                    "mark_id": "536725",
+                    "mark_method": "\r\n          \r\n          \r\n          \r\n          ",
+                    "mark_no": 1,
+                    "right_deadline": "2020年12月10日\r\n          至 2030年12月09日",
+                    "status": "\r\n              LIVE/REGISTRATION/Issued and Active\r\n              注册\r\n              "
+                }
+            ],
+            "start_time": "2021-03-05 14:16:16",
+            "status": 2,
+            "update_task_url": "http://127.0.0.1:8080/task/update/536725"
+        },
+        "msg": "搜索任务成功"
+    }
 
 
 商标检索任务添加  - /task/add
