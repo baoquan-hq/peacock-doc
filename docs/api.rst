@@ -546,7 +546,7 @@ msg                   信息
 call_back_url         回调地址
 zip_url               证据包下载地址
 status                取证状态 0:开始，1:执行中 2:成功 3:失败
-mark_msg              商标信息对象集合(多条记录),以下是商标对象属性
+mark_msg              商标信息对象List集合(多条记录),以下是商标对象属性
 mark_id               申请/注册号
 status                商标状态
 inter_class           国际分类
@@ -594,7 +594,7 @@ msg                   信息
 call_back_url         回调地址
 date_dir              结果保存目录
 status                取证状态 0:开始，1:执行中 2:成功 3:失败
-mark_msg              商标信息对象集合(多条记录),以下是商标对象属性
+mark_msg              商标信息对象List集合(多条记录),以下是商标对象属性
 mark_id               申请/注册号
 status                商标状态
 inter_class           国际分类
