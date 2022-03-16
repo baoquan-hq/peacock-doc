@@ -204,7 +204,7 @@ start_time                                           开始取证时间
 end_time                                             结束取证时间
 sm3                                                 压缩包sm3
 sha256                                              压缩包sha256
-blockchain_hash                               链上hash值
+blockchain_hash                                     链上hash值
 imgUrl                                              图片预览地址
 identificationPdf                                   电子鉴定单pdf版地址
 ===========================================  ====================================================================
@@ -338,11 +338,11 @@ template_id         String字符串，模板id                       必选
 identities          Object对象，身份事项                        必选
 factoids            数组对象，陈述集                            必选
 transaction_id      外部事物id                                非必选
-evidenceType        取证类型，                                 必选
-nodeGroup           机器分组                                   必选
+evidenceType        取证类型                                 必选
+tag                 机器标签                                   非必选
 =================  ======================================= ================
 evidenceType为取证类型字段当前选项为： PC（电脑端）、PHONE（手机端）
-nodeGroup为取证类型为PC时的机器分组选择字段，当前可选择：peacock（不含模拟器）、peacock-mobile（包含模拟器）
+
 
 返回的data
 ^^^^^^^^^^^^^^
