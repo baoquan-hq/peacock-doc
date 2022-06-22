@@ -246,7 +246,9 @@ blockchain_hash    链上哈希
 attestation_at     存证时间
 hhf_number         杭互法编号
 ghf_number         广互法编号
-temp_url           证据包临时地址
+category           类型
+evidenceCode       提取码
+fileTempUrl        证据包临时地址
 =================  ================================================================
 hash存证没有杭互和广互编号，因为互法需要源文件进行验证
 
