@@ -165,7 +165,9 @@ sha256                                              压缩包sha256
 blockchain_hash                                     链上hash值
 imgUrl                                              图片预览地址
 ===========================================  ====================================================================
+
 状态值包含：
+^^^^^^^^^^^^^^
 ==========================   ============================================
 UNDERWAY              取证中
 TWO_STAGE              待确认（2阶段取证待确认）
@@ -208,43 +210,6 @@ evidenceCode       提取码
 fileTempUrl        证据包临时地址
 =================  ================================================================
 hash存证没有杭互和广互编号，因为互法需要源文件进行验证
-
-下载保全文件 - /attestations/download
---------------------------------------------------------------
-
-存证原文件下载
-
-payload
-^^^^^^^^^^^^^^^
-=================  ======================================= ================
-参数名 				描述                             是否可选
-=================  ======================================= ================
-ano                String字符串，保全号               必选
-=================  ======================================= ================
-
-返回的文件
-^^^^^^^^^^^^^^^
-
-该接口会返回保全文件以及文件名，文件就是http返回结果的body，文件名存放在http的header中，header的名称是Content-Disposition，header值形如::
-
-	form-data; name=Content-Disposition; filename=5Yhus2mVSMnQRXobRJCYgt.zip
-
-以java为例::
-
-	// 此处省略使用apache http client构造http请求的过程
-	// closeableHttpResponse是一个CloseableHttpResponse实例
-	HttpEntity httpEntity = closeableHttpResponse.getEntity();
-	Header header = closeableHttpResponse.getFirstHeader(MIME.CONTENT_DISPOSITION);
-	Pattern pattern = Pattern.compile(".*filename=\"(.*)\".*");
-	Matcher matcher = pattern.matcher(header.getValue());
-	String fileName = "";
-	if (matcher.matches()) {
-		fileName = matcher.group(1);
-	}
-	FileOutputStream fileOutputStream = new FileOutputStream(fileName);
-	IOUtils.copy(httpEntity.getContent(), fileOutputStream);
-	fileOutputStream.close();
-
 
 证书下载 - /attestations/pdf/download
 --------------------------------------------------------------
@@ -385,6 +350,7 @@ zipTempUrl                                   压缩包临时访问路径
 zipTempUrlExpiration                         压缩包临时访问路径过期时间
 ===================================  ====================================================================
 状态值包含：
+^^^^^^^^^^^^^^
 ===================================  ====================================================================
 NEW                   新创建取证
 FELLIN                排队中
@@ -466,6 +432,7 @@ blockchain_hash                              链上hash值
 zipTempUrl                                   压缩包临时访问路径
 ===================================  ====================================================================
 状态值包含：
+^^^^^^^^^^^^^^
 ===================================  ====================================================================
 UNDERWAY              取证中
 FINISHED              取证成功
@@ -542,6 +509,7 @@ blockchain_hash                              链上hash值
 zipTempUrl                                   压缩包临时访问路径
 ===================================  ====================================================================
 状态值包含：
+^^^^^^^^^^^^^^
 ===================================  ====================================================================
 UNDERWAY              取证中
 FINISHED              取证成功
