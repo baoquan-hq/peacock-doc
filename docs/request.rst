@@ -26,6 +26,7 @@ API地址：`https://api.baoquan.com/api/v3`
 请求参数
 ^^^^^^^^^^^^^^^
 
+请求格式：form-data
 =================  ================================================================
 字段名 				描述
 =================  ================================================================
@@ -35,18 +36,6 @@ tonce              请求时间, 必须以 `Unix Time`_ 的格式发送, tonce�
 payload            被签名的数据体部分，用JSON进行编码，不同的请求的payload数据一般不同  详情请看详细接口介绍
 signature          使用你的RSA私钥进行签名后的字符串，具体签名的方法后面会进一步描述
 =================  ================================================================
-
-例如::
-
-	{
-		"request_id": "2XiTgZ2oVrBgGqKQ1ruCKh",
-		"access_key": "2y7cg8kmoGDrDBXJLaizoD",
-		"tonce": 1464594744,
-		"payload": {
-			"template_id": "2hSWTZ4oqVEJKAmK2RiyT4",
-		}
-		"signature": "moGDrDBXJLaizoD2hSWTZ4oqVEJKAmK2RiyT4"
-	}
 
 
 应答参数
