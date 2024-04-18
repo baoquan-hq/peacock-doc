@@ -270,7 +270,40 @@ rsa私钥文件应该以 **-----BEGIN PRIVATE KEY-----** 开头和 **-----END PR
 ::
         ResultModel response client.stopProcess("425043414342438912");
         System.out.println(Utils.objectToJson(response));
+司法鉴定
+------------------
 
+::
+        EvidenceJudicialParam evidenceJudicialParam = new EvidenceJudicialParam();
+        evidenceJudicialParam.setEvidenceDesc("测试");
+        evidenceJudicialParam.setAddress("测试");
+        evidenceJudicialParam.setUserName("测试");
+        evidenceJudicialParam.setUserPhone("测试");
+        evidenceJudicialParam.setAnos("1");
+        evidenceJudicialParam.setName("测试");
+        evidenceJudicialParam.setEvidenceUseType(1);
+        try {
+            ResultModel response = client.createJudicial(evidenceJudicialParam);
+            System.out.println("responseData:"+Utils.objectToJson(response.getData()));
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+公证出证
+------------------
 
+::
+        EvidenceNotarizationParam evidenceNotarizationParam = new EvidenceNotarizationParam();
+        evidenceNotarizationParam.setAddress("测试");
+        evidenceNotarizationParam.setUserName("测试");
+        evidenceNotarizationParam.setUserPhone("测试");
+        evidenceNotarizationParam.setAnos("1");
+        evidenceNotarizationParam.setName("测试");
+
+        try {
+            ResultModel response = client.createNotarization(evidenceJudicialParam);
+            System.out.println("responseData:"+Utils.objectToJson(response.getData()));
+        }catch(Exception e){
+            e.printStackTrace();
+        }
 
 
